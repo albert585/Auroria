@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "inside_world:hong_jing"
+    },
+    "title": {
+      "translate": "advancements.a_luo_li_ya.title"
+    },
+    "description": {
+      "translate": "advancements.a_luo_li_ya.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "a_luo_li_ya": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "inside_world:hong_jing"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "inside_world:aaaa"
+}

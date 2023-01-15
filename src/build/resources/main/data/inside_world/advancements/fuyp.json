@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "inside_world:fu_you_pao"
+    },
+    "title": {
+      "translate": "advancements.fuyp.title"
+    },
+    "description": {
+      "translate": "advancements.fuyp.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fuyp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "inside_world:fu_you_pao"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "inside_world:aaaa"
+}

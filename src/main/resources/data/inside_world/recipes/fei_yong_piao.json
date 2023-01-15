@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "inside_world:hong_jing"
+    },
+    "1": {
+      "item": "inside_world:hong_jing"
+    },
+    "2": {
+      "item": "inside_world:hong_jing"
+    },
+    "4": {
+      "item": "inside_world:ning_xiao"
+    },
+    "7": {
+      "item": "minecraft:bow"
+    }
+  },
+  "result": {
+    "item": "inside_world:fu_you_pao",
+    "count": 1
+  }
+}

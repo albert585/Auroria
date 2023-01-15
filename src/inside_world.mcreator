@@ -1,0 +1,230 @@
+{
+  "mod_elements": [
+    {
+      "name": "HongJing",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hong_jing"
+    },
+    {
+      "name": "KuangJingChong",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kuang_jing_chong"
+    },
+    {
+      "name": "KaiMuLeiJi",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kai_mu_lei_ji",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ALuoLiYa",
+      "type": "achievement",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_luo_li_ya"
+    },
+    {
+      "name": "NingXiao",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ning_xiao"
+    },
+    {
+      "name": "NengLiangNingXiao",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neng_liang_ning_xiao"
+    },
+    {
+      "name": "FuYouPao",
+      "type": "rangeditem",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fu_you_pao"
+    },
+    {
+      "name": "Fyp",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fyp"
+    },
+    {
+      "name": "Lj",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lj"
+    },
+    {
+      "name": "NingGuBing",
+      "type": "potioneffect",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ning_gu_bing"
+    },
+    {
+      "name": "Ngb",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ngb",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ngb2",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ngb_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fuyp",
+      "type": "achievement",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuyp"
+    },
+    {
+      "name": "FeiYongPiao",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fei_yong_piao"
+    },
+    {
+      "name": "Fz1",
+      "type": "rangeditem",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fz_1"
+    },
+    {
+      "name": "ChangMao",
+      "type": "rangeditem",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chang_mao"
+    },
+    {
+      "name": "HongJingb",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hong_jingb"
+    },
+    {
+      "name": "FaZhang",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fa_zhang"
+    },
+    {
+      "name": "Aaaa",
+      "type": "achievement",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aaaa"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.aaaa.title": "Aaaa",
+      "effect.inside_world.ning_gu_bing": "凝骨病",
+      "advancements.fuyp.title": "浮游炮",
+      "item.inside_world.kuang_jing_chong_spawn_egg": "矿晶虫（未完成） Spawn Egg",
+      "advancements.fuyp.descr": "开炮！！！",
+      "item.inside_world.ning_xiao": "凝胶",
+      "item.inside_world.chang_mao": "长矛",
+      "block.inside_world.hong_jingb": "虹晶矿",
+      "advancements.aaaa.descr": "开始了",
+      "advancements.a_luo_li_ya.title": "一切的开始",
+      "item.inside_world.fu_you_pao": "浮游炮",
+      "item.inside_world.fz_1": "法杖（非精修）",
+      "item.inside_world.neng_liang_ning_xiao": "能量凝胶",
+      "advancements.a_luo_li_ya.descr": "这是个描述",
+      "item.inside_world.hong_jing": "虹冰",
+      "entity.inside_world.kuang_jing_chong": "矿晶虫（未完成）"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "inside_world",
+    "modName": "阿罗利亚",
+    "version": "0.0.1a",
+    "description": "A simple mod based on \u0027Auroria\u0027",
+    "author": "Chen_Albert,F-N-Chabry",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "coded by Chen_Albert ; Thanks for F-N-Chabry",
+    "modElementsPackage": "net.mcreator.insideworld",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

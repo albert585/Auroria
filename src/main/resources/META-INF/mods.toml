@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="inside_world"
+version="0.0.1"
+displayName="阿罗利亚"
+credits="coded by Chen_Albert ; Thanks for F-N-Chabry"
+displayURL="https://mcreator.net"
+authors="Chen_Albert,F-N-Chabry"
+description='''
+A simple mod based on 'Auroria'
+'''
+
+[[dependencies.inside_world]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
