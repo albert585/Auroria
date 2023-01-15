@@ -1,6 +1,10 @@
 # Auroria
 A simple MC mod bases on "Auroria"
+#### MC verison
 
+JAVA EDITION 1.19.2
+The dev phase does NOT consider transplantation
+ 
 #### How to install
 Droping JAR file to "mods" directory
 
