@@ -1,0 +1,227 @@
+{
+  "mod_elements": [
+    {
+      "name": "HJ",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hj",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RainbowIce",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbow_ice"
+    },
+    {
+      "name": "Ngb",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ngb",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BoneCoagulation",
+      "type": "potioneffect",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_coagulation"
+    },
+    {
+      "name": "NaGeBiao",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "na_ge_biao",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RainbowOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbow_ore"
+    },
+    {
+      "name": "Open",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Funnel",
+      "type": "rangeditem",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funnel"
+    },
+    {
+      "name": "Magicw",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicw"
+    },
+    {
+      "name": "A",
+      "type": "plant",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicgrass"
+    },
+    {
+      "name": "Magicgrass",
+      "type": "loottable",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicgrass"
+    },
+    {
+      "name": "AA",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aa",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CCC",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ccc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Swordaaa",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordaaa"
+    },
+    {
+      "name": "MagicStrick",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_strick"
+    },
+    {
+      "name": "Cc",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cc"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "somebody.that.i.used.to.know",
+      "files": [
+        "13"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.auroria.rainbow_ore": "虹冰矿",
+      "block.auroria.magicgrass": "A",
+      "item.auroria.magicw": "魔法纤维",
+      "item.auroria.rainbow_ice": "虹冰",
+      "item.auroria.funnel": "浮游炮",
+      "item.auroria.swordaaa": "Swordaaa",
+      "effect.auroria.bone_coagulation": "凝骨病",
+      "subtitles.somebody.that.i.used.to.know": "",
+      "item.auroria.magic_strick": "魔法棒（打不出伤害）"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "auroria",
+    "modName": "阿罗利亚",
+    "version": "0.0.2a",
+    "description": "A simple MC mod bases on Auroria",
+    "author": "albert, F-N-Chabry",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Made by Albert , Special thank for F-N-Chabry，Use  Mcreator",
+    "modElementsPackage": "tms.chabry.auroria",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

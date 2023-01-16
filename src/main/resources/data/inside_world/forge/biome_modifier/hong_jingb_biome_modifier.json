@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "inside_world:hong_jingb",
-  "step": "underground_ores"
-}

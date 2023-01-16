@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "auroria:block/rainbow_ore"
+    },
+    "facing=east": {
+      "model": "auroria:block/rainbow_ore",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "auroria:block/rainbow_ore",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "auroria:block/rainbow_ore",
+      "y": 270
+    }
+  }
+}

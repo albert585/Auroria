@@ -3,17 +3,17 @@ loaderVersion="[43,)"
 license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
-modId="inside_world"
-version="0.0.1"
+modId="auroria"
+version="0.0.2"
 displayName="阿罗利亚"
-credits="coded by Chen_Albert ; Thanks for F-N-Chabry"
+credits="Made by Albert , Special thank for F-N-Chabry，Use  Mcreator"
 displayURL="https://mcreator.net"
-authors="Chen_Albert,F-N-Chabry"
+authors="albert, F-N-Chabry"
 description='''
-A simple mod based on 'Auroria'
+A simple MC mod bases on Auroria
 '''
 
-[[dependencies.inside_world]]
+[[dependencies.auroria]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.2]"
