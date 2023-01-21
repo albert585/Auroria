@@ -13,8 +13,10 @@
  */
 package tms.chabry.auroria;
 
+import tms.chabry.auroria.init.AuroriaModTabs;
 import tms.chabry.auroria.init.AuroriaModSounds;
 import tms.chabry.auroria.init.AuroriaModMobEffects;
+import tms.chabry.auroria.init.AuroriaModMenus;
 import tms.chabry.auroria.init.AuroriaModItems;
 import tms.chabry.auroria.init.AuroriaModFeatures;
 import tms.chabry.auroria.init.AuroriaModEntities;
@@ -50,7 +52,7 @@ public class AuroriaMod {
 
 	public AuroriaMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		AuroriaModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		AuroriaModSounds.REGISTRY.register(bus);
 		AuroriaModBlocks.REGISTRY.register(bus);
@@ -60,6 +62,8 @@ public class AuroriaMod {
 		AuroriaModFeatures.REGISTRY.register(bus);
 
 		AuroriaModMobEffects.REGISTRY.register(bus);
+
+		AuroriaModMenus.REGISTRY.register(bus);
 
 	}
 

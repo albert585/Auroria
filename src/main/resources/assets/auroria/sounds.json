@@ -7,5 +7,23 @@
         "stream": false
       }
     ]
+  },
+  "rather.be.ogg": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "auroria:12",
+        "stream": true
+      }
+    ]
+  },
+  "somebody.that.i.used.know": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "auroria:gotyekimbra_-_somebody_that_i_used_to_know",
+        "stream": false
+      }
+    ]
   }
 }

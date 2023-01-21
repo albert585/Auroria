@@ -17,4 +17,8 @@ public class AuroriaModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, AuroriaMod.MODID);
 	public static final RegistryObject<SoundEvent> SOMEBODY_THAT_I_USED_TO_KNOW = REGISTRY.register("somebody.that.i.used.to.know",
 			() -> new SoundEvent(new ResourceLocation("auroria", "somebody.that.i.used.to.know")));
+	public static final RegistryObject<SoundEvent> RATHER_BE_OGG = REGISTRY.register("rather.be.ogg",
+			() -> new SoundEvent(new ResourceLocation("auroria", "rather.be.ogg")));
+	public static final RegistryObject<SoundEvent> SOMEBODY_THAT_I_USED_KNOW = REGISTRY.register("somebody.that.i.used.know",
+			() -> new SoundEvent(new ResourceLocation("auroria", "somebody.that.i.used.know")));
 }

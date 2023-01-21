@@ -5,6 +5,7 @@
 package tms.chabry.auroria.init;
 
 import tms.chabry.auroria.world.features.plants.AFeature;
+import tms.chabry.auroria.world.features.ores.RainbowOreFeature;
 import tms.chabry.auroria.AuroriaMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -17,5 +18,6 @@ import net.minecraft.world.level.levelgen.feature.Feature;
 @Mod.EventBusSubscriber
 public class AuroriaModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, AuroriaMod.MODID);
+	public static final RegistryObject<Feature<?>> RAINBOW_ORE = REGISTRY.register("rainbow_ore", RainbowOreFeature::feature);
 	public static final RegistryObject<Feature<?>> MAGICGRASS = REGISTRY.register("magicgrass", AFeature::feature);
 }

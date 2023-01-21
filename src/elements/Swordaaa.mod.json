@@ -1,0 +1,40 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sword",
+    "customModelName": "Normal",
+    "name": "Swordaaa",
+    "specialInfo": [
+      "一 击 必 杀",
+      "无 懈 可 击"
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 32767,
+    "efficiency": 32767.0,
+    "attackSpeed": 32.767,
+    "enchantability": 32767,
+    "damageVsEntity": 32767.0,
+    "usageCount": 32771,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Blocks.BARRIER"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "CCC"
+    },
+    "onItemInUseTick": {
+      "name": "AA"
+    }
+  }
+}

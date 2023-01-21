@@ -1,0 +1,39 @@
+{
+  "_fv": 34,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "funnel",
+    "customModelName": "Normal",
+    "name": "浮游炮",
+    "specialInfo": [
+      "开 炮 ！！！！！！"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "shootConstantly": false,
+    "usageCount": 250,
+    "actionSound": {
+      "value": "item.firecharge.use"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 8.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

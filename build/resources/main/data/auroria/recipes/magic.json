@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "auroria:rainbow_ice"
+    },
+    "4": {
+      "item": "auroria:magic_strick"
+    },
+    "6": {
+      "item": "auroria:magic_strick"
+    }
+  },
+  "result": {
+    "item": "auroria:magicf",
+    "count": 1
+  }
+}

@@ -16,5 +16,6 @@ public class AuroriaModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(AuroriaModEntities.FUNNEL.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(AuroriaModEntities.MAGICF.get(), ThrownItemRenderer::new);
 	}
 }

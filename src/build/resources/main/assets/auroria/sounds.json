@@ -1,0 +1,11 @@
+{
+  "somebody.that.i.used.to.know": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "auroria:13",
+        "stream": false
+      }
+    ]
+  }
+}

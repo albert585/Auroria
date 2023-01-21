@@ -79,7 +79,7 @@
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [],
-    "frequencyOnChunks": 4,
+    "frequencyOnChunks": 2,
     "spawnWorldTypes": [
       "Surface"
     ],

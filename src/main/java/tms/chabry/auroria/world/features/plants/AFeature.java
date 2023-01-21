@@ -34,7 +34,7 @@ public class AFeature extends RandomPatchFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("auroria:magicgrass", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
 				new SimpleBlockConfiguration(BlockStateProvider.simple(AuroriaModBlocks.MAGICGRASS.get())), List.of(), 64));
 		PLACED_FEATURE = PlacementUtils.register("auroria:magicgrass", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(4), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE, BiomeFilter.biome()));
+				List.of(CountPlacement.of(2), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE, BiomeFilter.biome()));
 		return FEATURE;
 	}
 
