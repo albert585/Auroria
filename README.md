@@ -1,14 +1,14 @@
-# 阿罗利亚 mod
+# Auroria mod
 
 #### 介绍
-一个简单的阿罗利亚饭制模组
+A simple MC mod bases on "Auroria"
 
 #### 安装教程
 
-1.  将JAR文件拖进mods文件夹即可
+1.  Drop JAR file to "mods" directory
 #### 模组版本
 
-MC JAVA 1.19.2
+MC JAVA 1.19.2 forge
 dev阶段不考虑移植
 
 #### 使用说明
@@ -29,10 +29,3 @@ dev阶段不考虑移植
 9.  职业(待定)
 10. 鹫狐(X)
 11. 版权(X）
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
