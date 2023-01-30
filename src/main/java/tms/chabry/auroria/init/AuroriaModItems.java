@@ -10,15 +10,19 @@ import tms.chabry.auroria.item.SwordaaaItem;
 import tms.chabry.auroria.item.RatherItem;
 import tms.chabry.auroria.item.RainbowIceItem;
 import tms.chabry.auroria.item.MagicwItem;
+import tms.chabry.auroria.item.MagicssItem;
 import tms.chabry.auroria.item.MagicfItem;
 import tms.chabry.auroria.item.MagicStrickItem;
+import tms.chabry.auroria.item.GelItem;
 import tms.chabry.auroria.item.FunnelItem;
+import tms.chabry.auroria.item.EnergygelItem;
 import tms.chabry.auroria.item.EmmItem;
 import tms.chabry.auroria.AuroriaMod;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -39,6 +43,11 @@ public class AuroriaModItems {
 	public static final RegistryObject<Item> TEST_2 = REGISTRY.register("test_2", () -> new Test2Item());
 	public static final RegistryObject<Item> EMM = REGISTRY.register("emm", () -> new EmmItem());
 	public static final RegistryObject<Item> TICK = REGISTRY.register("tick", () -> new TickItem());
+	public static final RegistryObject<Item> GEL = REGISTRY.register("gel", () -> new GelItem());
+	public static final RegistryObject<Item> OREIN = REGISTRY.register("orein_spawn_egg",
+			() -> new ForgeSpawnEggItem(AuroriaModEntities.OREIN, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> ENERGYGEL = REGISTRY.register("energygel", () -> new EnergygelItem());
+	public static final RegistryObject<Item> MAGICSS = REGISTRY.register("magicss", () -> new MagicssItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

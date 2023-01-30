@@ -4,6 +4,8 @@
  */
 package tms.chabry.auroria.init;
 
+import tms.chabry.auroria.client.renderer.OreinRenderer;
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
@@ -17,5 +19,6 @@ public class AuroriaModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(AuroriaModEntities.FUNNEL.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(AuroriaModEntities.MAGICF.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(AuroriaModEntities.OREIN.get(), OreinRenderer::new);
 	}
 }

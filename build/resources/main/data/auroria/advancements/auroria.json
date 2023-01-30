@@ -2,7 +2,7 @@
   "display": {
     "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "auroria:rainbow_ice"
+      "item": "auroria:tick"
     },
     "title": {
       "translate": "advancements.auroria.title"

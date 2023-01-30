@@ -4,6 +4,7 @@
  */
 package tms.chabry.auroria.init;
 
+import tms.chabry.auroria.entity.OreinEntity;
 import tms.chabry.auroria.entity.MagicfEntity;
 import tms.chabry.auroria.entity.FunnelEntity;
 import tms.chabry.auroria.AuroriaMod;
@@ -29,6 +30,9 @@ public class AuroriaModEntities {
 	public static final RegistryObject<EntityType<MagicfEntity>> MAGICF = register("projectile_magicf",
 			EntityType.Builder.<MagicfEntity>of(MagicfEntity::new, MobCategory.MISC).setCustomClientFactory(MagicfEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<OreinEntity>> OREIN = register("orein",
+			EntityType.Builder.<OreinEntity>of(OreinEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(OreinEntity::new).fireImmune().sized(0.4f, 0.3f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -37,10 +41,12 @@ public class AuroriaModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
+			OreinEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(OREIN.get(), OreinEntity.createAttributes().build());
 	}
 }

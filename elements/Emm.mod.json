@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "gn",
     "customModelName": "Normal",
-    "name": "Emm",
+    "name": "GUI测试",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "No creative tab entry"
@@ -24,7 +24,11 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "给仿生兽的GUI",
+      "(我喜欢小六",
+      "可别说出去"
+    ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

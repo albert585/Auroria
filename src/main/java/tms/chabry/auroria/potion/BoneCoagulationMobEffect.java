@@ -2,7 +2,6 @@
 package tms.chabry.auroria.potion;
 
 import tms.chabry.auroria.procedures.NgbProcedure;
-import tms.chabry.auroria.procedures.NaGeBiaoProcedure;
 import tms.chabry.auroria.procedures.HJProcedure;
 
 import net.minecraft.world.entity.ai.attributes.AttributeMap;
@@ -13,7 +12,7 @@ import net.minecraft.world.effect.MobEffect;
 
 public class BoneCoagulationMobEffect extends MobEffect {
 	public BoneCoagulationMobEffect() {
-		super(MobEffectCategory.NEUTRAL, -3355444);
+		super(MobEffectCategory.HARMFUL, -3355444);
 	}
 
 	@Override
@@ -28,11 +27,6 @@ public class BoneCoagulationMobEffect extends MobEffect {
 
 	@Override
 	public void applyInstantenousEffect(Entity source, Entity indirectSource, LivingEntity entity, int amplifier, double health) {
-		NaGeBiaoProcedure.execute(entity);
-	}
-
-	@Override
-	public void applyEffectTick(LivingEntity entity, int amplifier) {
 		NgbProcedure.execute(entity.level, entity);
 	}
 

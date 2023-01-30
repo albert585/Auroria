@@ -11,9 +11,11 @@ public class NgbProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		AuroriaMod.queueServerWork(9000, () -> {
-			if (entity instanceof LivingEntity _entity)
-				_entity.hurt(new DamageSource("custom").bypassArmor(), 6);
-		});
+		while (0 == 0) {
+			AuroriaMod.queueServerWork(9000, () -> {
+				if (entity instanceof LivingEntity _entity)
+					_entity.hurt(new DamageSource("custom").bypassArmor(), 6);
+			});
+		}
 	}
 }

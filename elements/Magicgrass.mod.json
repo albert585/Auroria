@@ -6,7 +6,7 @@
     "pools": [
       {
         "minrolls": 1,
-        "maxrolls": 2,
+        "maxrolls": 1,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
         "hasbonusrolls": false,
@@ -16,7 +16,7 @@
             "item": {
               "value": "CUSTOM:Magicw"
             },
-            "weight": 1,
+            "weight": 4,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -30,7 +30,7 @@
             "item": {
               "value": "Items.WHEAT_SEEDS"
             },
-            "weight": 2,
+            "weight": 6,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,

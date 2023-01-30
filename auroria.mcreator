@@ -291,18 +291,126 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tick"
+    },
+    {
+      "name": "Funnel1",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funnel_1"
+    },
+    {
+      "name": "Icetoice",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "icetoice"
+    },
+    {
+      "name": "Gel",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel"
+    },
+    {
+      "name": "Energygel",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energygel"
+    },
+    {
+      "name": "Gel1",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_1"
+    },
+    {
+      "name": "Orein",
+      "type": "livingentity",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orein"
+    },
+    {
+      "name": "Gel2",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_2"
+    },
+    {
+      "name": "Cs",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cs",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gel3",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_3"
+    },
+    {
+      "name": "Magicss",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicss"
+    },
+    {
+      "name": "Magics",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magics"
+    },
+    {
+      "name": "Totheplayer",
+      "type": "function",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totheplayer"
     }
   ],
   "variable_elements": [],
   "sound_elements": [
-    {
-      "name": "somebody.that.i.used.to.know",
-      "files": [
-        "13"
-      ],
-      "category": "neutral",
-      "subtitle": ""
-    },
     {
       "name": "rather.be.ogg",
       "files": [
@@ -318,33 +426,46 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "somebody.that.i.used.to.know",
+      "files": [
+        "13"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "block.auroria.rainbow_ore": "虹冰矿",
-      "block.auroria.magicgrass": "A",
-      "advancements.auroria.descr": "魔法的世界",
       "item.auroria.magicw": "魔法纤维",
       "item.auroria.rainbow_ice": "虹冰",
-      "subtitles.rather.be.ogg": "",
-      "item.auroria.funnel": "浮游炮",
-      "item.auroria.rather": "测试唱片1",
       "item.auroria.test_2.desc": "Gotye,Kimbra - Somebody That I Used To Know",
+      "item.auroria.energygel": "能量凝胶",
       "itemGroup.taba_luo_li_ya": "阿罗利亚",
-      "item.auroria.rather.desc": "Rather Be (Instrumental)",
-      "subtitles.somebody.that.i.used.know": "",
       "item.auroria.magicf": "法杖",
       "item.auroria.tick": "Tick",
+      "item.auroria.gel": "凝胶",
       "item.auroria.swordaaa": "Swordaaa",
       "advancements.auroria_2.title": "虹冰！",
       "effect.auroria.bone_coagulation": "凝骨病",
       "advancements.auroria_2.descr": "魔法的开始",
+      "item.auroria.emm": "GUI测试",
+      "block.auroria.magicgrass": "A",
+      "advancements.auroria.descr": "魔法的世界",
+      "entity.auroria.orein": "矿晶虫",
+      "subtitles.rather.be.ogg": "",
+      "item.auroria.funnel": "浮游炮",
+      "item.auroria.rather": "测试唱片1",
+      "item.auroria.magicss": "魔法棒",
+      "item.auroria.rather.desc": "Rather Be (Instrumental)",
+      "subtitles.somebody.that.i.used.know": "",
+      "item.auroria.orein_spawn_egg": "矿晶虫 Spawn Egg",
       "advancements.auroria.title": "阿罗利亚",
       "subtitles.somebody.that.i.used.to.know": "",
       "item.auroria.test_2": "测试唱片2",
-      "item.auroria.magic_strick": "魔法棒（打不出伤害）",
-      "item.auroria.emm": "Emm"
+      "item.auroria.magic_strick": "魔法棒（打不出伤害）"
     }
   },
   "foldersRoot": {
@@ -354,7 +475,7 @@
   "workspaceSettings": {
     "modid": "auroria",
     "modName": "阿罗利亚",
-    "version": "0.0.2a",
+    "version": "0.0.4a",
     "description": "A simple MC mod bases on Auroria",
     "author": "albert, F-N-Chabry",
     "websiteURL": "https://mcreator.net",

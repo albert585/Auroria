@@ -2,15 +2,12 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": {
-        "min": 1,
-        "max": 2
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "auroria:magicw",
-          "weight": 1,
+          "weight": 4,
           "functions": [
             {
               "function": "set_count",
@@ -24,7 +21,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:wheat_seeds",
-          "weight": 2,
+          "weight": 6,
           "functions": [
             {
               "function": "set_count",
