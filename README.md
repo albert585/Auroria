@@ -8,8 +8,8 @@ A simple MC mod bases on "Auroria"
 1.  Drop JAR file to "mods" directory
 #### 模组版本
 
-MC JAVA 1.19.2 forge
-dev阶段不考虑移植
+MC JAVA 1.19.2 forge/fabric <br>
+dev阶段不考虑向下移植
 
 #### 使用说明
 
