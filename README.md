@@ -8,8 +8,8 @@ A simple MC mod bases on "Auroria"
 1.  Drop JAR file to "mods" directory
 #### 模组版本
 
-MC JAVA 1.19.2 forge
-dev阶段不考虑移植
+MC JAVA 1.19.2 forge/fabric <br>
+Fabric 功能较少，开学后就停更
 
 #### 使用说明
 
@@ -25,7 +25,7 @@ dev阶段不考虑移植
 5.  天灾(X)
 6.  武器其他效果(X)
 7.  虹晶(药物效果及矿石)
-8.  武器(仅法杖，浮游炮)
+8.  武器(X)
 9.  职业(待定)
 10. 鹫狐(X)
 11. 版权(X）
