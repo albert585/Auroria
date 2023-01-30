@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ri",
+    "texture": "rainbowice",
     "customModelName": "Normal",
     "name": "虹冰",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Auroria"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -24,22 +24,13 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "一种闪耀异常的矿物",
-      "遇日光照射会升华"
-    ],
-    "hasGlow": true,
+    "specialInfo": [],
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onEntityHitWith": {
-      "name": "HJ"
-    },
     "onItemInInventoryTick": {
-      "name": "HJ"
-    },
-    "onItemInUseTick": {
-      "name": "HJ"
+      "name": "Rb"
     },
     "isFood": false,
     "nutritionalValue": 4,

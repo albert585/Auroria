@@ -4,16 +4,17 @@
  */
 package tms.chabry.auroria.init;
 
-import tms.chabry.auroria.potion.BoneCoagulationMobEffect;
+import tms.chabry.auroria.potion.BoneMobEffect;
 import tms.chabry.auroria.AuroriaMod;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
-
 import net.minecraft.world.effect.MobEffect;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.Registry;
 
 public class AuroriaModMobEffects {
-	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, AuroriaMod.MODID);
-	public static final RegistryObject<MobEffect> BONE_COAGULATION = REGISTRY.register("bone_coagulation", () -> new BoneCoagulationMobEffect());
+	public static MobEffect BONE;
+
+	public static void load() {
+		BONE = Registry.register(Registry.MOB_EFFECT, new ResourceLocation(AuroriaMod.MODID, "bone"), new BoneMobEffect());
+	}
 }
