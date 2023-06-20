@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroria:block/rainbowore",
+    "up": "auroria:block/rainbowore",
+    "north": "auroria:block/rainbowore",
+    "east": "auroria:block/rainbowore",
+    "south": "auroria:block/rainbowore",
+    "west": "auroria:block/rainbowore",
+    "particle": "auroria:block/rainbowore"
+  },
+  "render_type": "solid"
+}

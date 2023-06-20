@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "auroria:rainbow_ice"
+    },
+    "1": {
+      "item": "auroria:rainbow_ice"
+    },
+    "2": {
+      "item": "auroria:rainbow_ice"
+    },
+    "3": {
+      "item": "minecraft:redstone"
+    },
+    "4": {
+      "item": "minecraft:bow"
+    },
+    "5": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "auroria:funnel",
+    "count": 1
+  }
+}

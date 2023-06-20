@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="auroria"
+version="0.0.4"
+displayName="阿罗利亚"
+credits="Made by Albert , Special thank for F-N-Chabry，Use  Mcreator"
+displayURL="https://mcreator.net"
+authors="albert, F-N-Chabry"
+description="A simple MC mod bases on Auroria"
+
+[[dependencies.auroria]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.auroria]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

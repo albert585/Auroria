@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "auroria:rainbow_ice"
+    },
+    "title": {
+      "translate": "advancements.auroria_2.title"
+    },
+    "description": {
+      "translate": "advancements.auroria_2.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "auroria_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "auroria:rainbow_ice"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "auroria:auroria"
+}

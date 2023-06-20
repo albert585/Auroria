@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "auroria:magicw"
+    },
+    "1": {
+      "item": "auroria:magicw"
+    }
+  },
+  "result": {
+    "item": "auroria:magic_strick",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_fv": 43,
+  "_type": "function",
+  "definition": {
+    "code": "# Enter the function code here\nsay 首先呢，柴北鹦画的真的好\nsay 其次，我会尽力争取版权\nsay 此模组为个人开发，不可能什么方面都顾及到的。\nsay 如有疏漏部分，请见谅。\n",
+    "name": "totheplayer",
+    "namespace": "mod"
+  }
+}

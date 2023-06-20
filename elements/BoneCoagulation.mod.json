@@ -1,0 +1,23 @@
+{
+  "_fv": 43,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "凝骨病",
+    "icon": "bone_coagulation.png",
+    "color": {
+      "value": -3355444,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "Ngb"
+    },
+    "onExpired": {
+      "name": "HJ"
+    }
+  }
+}

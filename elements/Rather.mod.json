@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "测试唱片1",
+    "texture": "record12",
+    "description": "Rather Be (Instrumental)",
+    "creativeTab": {
+      "value": "CUSTOM:ALuoLiYa"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:rather.be.ogg"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

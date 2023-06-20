@@ -1,0 +1,34 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sword",
+    "customModelName": "Normal",
+    "name": "Test Sword",
+    "specialInfo": [
+      "仅用于测试",
+      "将于beta版删除"
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 32767,
+    "efficiency": 32767.0,
+    "attackSpeed": 32.767,
+    "enchantability": 32767,
+    "damageVsEntity": 32767.0,
+    "usageCount": 32771,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Blocks.BARRIER"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

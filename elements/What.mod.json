@@ -1,0 +1,71 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "gui1.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ce_shi",
+          "text": "测试",
+          "onClick": {
+            "name": "GUITest"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 267,
+          "y": 197
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "文本",
+          "name": "label_wen_ben",
+          "width": 120,
+          "height": 20,
+          "x": 159,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_aaa",
+          "text": {
+            "fixedValue": "aaa"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 186,
+          "y": 188
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 14,
+      "snapOnGrid": true
+    }
+  }
+}

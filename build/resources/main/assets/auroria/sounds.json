@@ -1,0 +1,26 @@
+{
+  "rather.be.ogg": {
+    "sounds": [
+      {
+        "name": "auroria:12",
+        "stream": true
+      }
+    ]
+  },
+  "somebody.that.i.used.know": {
+    "sounds": [
+      {
+        "name": "auroria:gotyekimbra_-_somebody_that_i_used_to_know",
+        "stream": false
+      }
+    ]
+  },
+  "somebody.that.i.used.to.know": {
+    "sounds": [
+      {
+        "name": "auroria:13",
+        "stream": false
+      }
+    ]
+  }
+}

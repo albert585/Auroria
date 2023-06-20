@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "auroria:gel"
+    },
+    "1": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "item": "auroria:energygel",
+    "count": 1
+  }
+}

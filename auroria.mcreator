@@ -1,0 +1,638 @@
+{
+  "mod_elements": [
+    {
+      "name": "HJ",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hj",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/procedures/HJProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RainbowIce",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbow_ice",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/item/RainbowIceItem.java",
+          "src/main/resources/assets/auroria/models/item/rainbow_ice.json"
+        ]
+      }
+    },
+    {
+      "name": "Ngb",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ngb",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/procedures/NgbProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BoneCoagulation",
+      "type": "potioneffect",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_coagulation",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/potion/BoneCoagulationMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "RainbowOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbow_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/block/RainbowOreBlock.java",
+          "src/main/resources/data/auroria/forge/biome_modifier/rainbow_ore_biome_modifier.json",
+          "src/main/java/tms/chabry/auroria/world/features/ores/RainbowOreFeature.java",
+          "src/main/resources/data/auroria/worldgen/placed_feature/rainbow_ore.json",
+          "src/main/resources/data/auroria/worldgen/configured_feature/rainbow_ore.json",
+          "src/main/resources/assets/auroria/models/item/rainbow_ore.json",
+          "src/main/resources/assets/auroria/models/block/rainbow_ore.json",
+          "src/main/resources/assets/auroria/blockstates/rainbow_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Open",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/procedures/OpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Funnel",
+      "type": "rangeditem",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funnel",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/item/FunnelItem.java",
+          "src/main/java/tms/chabry/auroria/entity/FunnelEntity.java",
+          "src/main/resources/assets/auroria/models/item/funnel.json"
+        ]
+      }
+    },
+    {
+      "name": "AA",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aa",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/procedures/AAProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CCC",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ccc",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/procedures/CCCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Swordaaa",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordaaa",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auroria/models/item/swordaaa.json",
+          "src/main/java/tms/chabry/auroria/item/SwordaaaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Magicf",
+      "type": "rangeditem",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicf",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/item/MagicfItem.java",
+          "src/main/resources/assets/auroria/models/item/magicf.json",
+          "src/main/java/tms/chabry/auroria/entity/MagicfEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Magic",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auroria/recipes/magic.json"
+        ]
+      }
+    },
+    {
+      "name": "ALuoLiYa",
+      "type": "tab",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_luo_li_ya",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Rather",
+      "type": "musicdisc",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rather",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/item/RatherItem.java",
+          "src/main/resources/assets/auroria/models/item/rather.json"
+        ]
+      }
+    },
+    {
+      "name": "Test2",
+      "type": "musicdisc",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auroria/models/item/test_2.json",
+          "src/main/java/tms/chabry/auroria/item/Test2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Auroria",
+      "type": "achievement",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auroria",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auroria/advancements/auroria.json"
+        ]
+      }
+    },
+    {
+      "name": "What",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "what",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/world/inventory/WhatMenu.java",
+          "src/main/java/tms/chabry/auroria/network/WhatButtonMessage.java",
+          "src/main/java/tms/chabry/auroria/client/gui/WhatScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Emmm",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emmm",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/procedures/EmmmProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Emm",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auroria/models/item/emm.json",
+          "src/main/java/tms/chabry/auroria/item/EmmItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Auroria2",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auroria_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auroria/advancements/auroria_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Tick",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tick",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/item/TickItem.java",
+          "src/main/resources/assets/auroria/models/item/tick.json"
+        ]
+      }
+    },
+    {
+      "name": "Funnel1",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funnel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auroria/recipes/funnel_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Gel",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auroria/models/item/gel.json",
+          "src/main/java/tms/chabry/auroria/item/GelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Energygel",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energygel",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/item/EnergygelItem.java",
+          "src/main/resources/assets/auroria/models/item/energygel.json"
+        ]
+      }
+    },
+    {
+      "name": "Gel1",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auroria/recipes/gel_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Orein",
+      "type": "livingentity",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orein",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/client/renderer/OreinRenderer.java",
+          "src/main/java/tms/chabry/auroria/entity/OreinEntity.java",
+          "src/main/resources/assets/auroria/models/item/orein_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Gel2",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auroria/recipes/gel_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Cs",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cs",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/procedures/CsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gel3",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auroria/recipes/gel_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Magics",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magics",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auroria/recipes/magics.json"
+        ]
+      }
+    },
+    {
+      "name": "Totheplayer",
+      "type": "function",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totheplayer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auroria/functions/totheplayer.mcfunction"
+        ]
+      }
+    },
+    {
+      "name": "GUITest",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_test",
+      "metadata": {
+        "files": [
+          "src/main/java/tms/chabry/auroria/procedures/GUITestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "rather.be.ogg",
+      "files": [
+        "12"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "somebody.that.i.used.know",
+      "files": [
+        "gotyekimbra_-_somebody_that_i_used_to_know"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "somebody.that.i.used.to.know",
+      "files": [
+        "13"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.auroria.rainbow_ore": "虹冰矿",
+      "item.auroria.rainbow_ice": "虹冰",
+      "item.auroria.test_2.desc": "Gotye,Kimbra - Somebody That I Used To Know",
+      "item.auroria.energygel": "能量凝胶",
+      "gui.auroria.what.button_ce_shi": "测试",
+      "itemGroup.taba_luo_li_ya": "阿罗利亚",
+      "item.auroria.magicf": "法杖",
+      "item.auroria.tick": "Tick",
+      "item.auroria.gel": "凝胶",
+      "item.auroria.swordaaa": "Test Sword",
+      "advancements.auroria_2.title": "虹冰！",
+      "gui.auroria.what.label_aaa": "aaa",
+      "effect.auroria.bone_coagulation": "凝骨病",
+      "advancements.auroria_2.descr": "魔法的开始",
+      "item.auroria.emm": "GUI测试",
+      "advancements.auroria.descr": "魔法的世界",
+      "entity.auroria.orein": "矿晶虫",
+      "subtitles.rather.be.ogg": "",
+      "item.auroria.funnel": "浮游炮",
+      "gui.auroria.what.label_zhe_shi_sha": "这是啥",
+      "item.auroria.rather": "测试唱片1",
+      "item_group.auroria.a_luo_li_ya": "阿罗利亚",
+      "item.auroria.rather.desc": "Rather Be (Instrumental)",
+      "subtitles.somebody.that.i.used.know": "",
+      "item.auroria.orein_spawn_egg": "矿晶虫 Spawn Egg",
+      "gui.auroria.what.label_wen_ben": "文本",
+      "advancements.auroria.title": "阿罗利亚",
+      "subtitles.somebody.that.i.used.to.know": "",
+      "item.auroria.test_2": "测试唱片2"
+    },
+    "zh_cn": {
+      "block.auroria.rainbow_ore": "虹冰矿",
+      "item.auroria.rainbow_ice": "虹冰",
+      "item.auroria.test_2.desc": "测试唱片",
+      "item.auroria.energygel": "能量凝胶",
+      "gui.auroria.what.button_ce_shi": "测试",
+      "itemGroup.taba_luo_li_ya": "阿罗利亚",
+      "item.auroria.magicf": "法杖",
+      "item.auroria.tick": "Tick",
+      "item.auroria.gel": "凝胶",
+      "item.auroria.swordaaa": "Swordaaa",
+      "advancements.auroria_2.title": "虹冰!",
+      "gui.auroria.what.label_aaa": "aaa",
+      "effect.auroria.bone_coagulation": "凝骨病",
+      "advancements.auroria_2.descr": "魔法的开始",
+      "item.auroria.emm": "GUI测试",
+      "advancements.auroria.descr": "魔法的世界",
+      "entity.auroria.orein": "矿晶虫",
+      "subtitles.rather.be.ogg": "",
+      "item.auroria.funnel": "浮游炮",
+      "gui.auroria.what.label_zhe_shi_sha": "这是啥",
+      "item.auroria.rather": "测试唱片1",
+      "item_group.auroria.a_luo_li_ya": "阿罗利亚",
+      "item.auroria.rather.desc": "Rather Be (Instrumental)",
+      "subtitles.somebody.that.i.used.know": "",
+      "item.auroria.orein_spawn_egg": "矿晶虫 Spawn Egg",
+      "gui.auroria.what.label_wen_ben": "文本",
+      "advancements.auroria.title": "阿罗利亚",
+      "subtitles.somebody.that.i.used.to.know": "",
+      "item.auroria.test_2": "测试唱片2"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "auroria",
+    "modName": "阿罗利亚",
+    "version": "0.0.4a",
+    "description": "A simple MC mod bases on Auroria",
+    "author": "albert, F-N-Chabry",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Made by Albert , Special thank for F-N-Chabry，Use  Mcreator",
+    "modElementsPackage": "tms.chabry.auroria",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

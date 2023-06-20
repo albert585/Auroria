@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "auroria:gel"
+    }
+  },
+  "result": {
+    "item": "minecraft:fire_charge",
+    "count": 1
+  }
+}

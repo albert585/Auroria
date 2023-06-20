@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "测试唱片2",
+    "texture": "test",
+    "description": "Gotye,Kimbra - Somebody That I Used To Know",
+    "creativeTab": {
+      "value": "CUSTOM:ALuoLiYa"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:somebody.that.i.used.know"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}
