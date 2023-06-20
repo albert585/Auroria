@@ -4,11 +4,6 @@
 A simple MC mod bases on "Auroria"  <br>
 初三寒假时因特别喜欢阿罗利亚而做。
 
-当然，这模组可能太简陋了
-
-所以移至gitee仓库封存。
-此库将在中考结束后删除
-
 ## 安装教程
 
 1.  Drop JAR file to "mods" directory
@@ -22,6 +17,7 @@ MC JAVA 1.19.2 forge/fabric <br>
 
 1.  模组处在dev阶段，不大稳定且过于简陋
 2.  模组目前暂未取得授权，所以禁止商用
+3.  如遇到错误，请使用Mcreator打开
 
 ## 功能实现
 
